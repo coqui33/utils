@@ -1,0 +1,65 @@
+/* === Elements === */
+
+body {
+   background-color: GAINSBORO;
+}
+
+h1 {text-align:center;}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+  margin: 10px 60px 0px 40px;
+}
+
+hr { 
+  color:  rgb(160,82,45);
+  border-color:  rgb(160,82,45);
+  background-color:  rgb(160,82,45);
+  border-width: 2px;
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 110%;
+    margin: 0.5% 2% 0 3%;
+ }
+
+p {
+    font-family: sans-serif;
+    font-size: 110%;
+    margin: 1.5% 2% 0 3%;
+ }
+
+table {
+   background-image: url("paper.jpg");
+  align: center
+}
+
+/* === Styles === */
+
+.card {
+  box-shadow: 4px 8px 12px #444;
+  transition: 0.3s;
+  margin: 10px 10px 15px 10px;
+  border-radius: 10px;
+  padding: 5px 0 10px 0;
+  background-color: antiquewhite;
+}
+
+.floatleft {
+  float:left;
+  margin: 1.5% 1.5% 0 3%;
+  padding:1px;
+  border:1px solid black;
+  max-width: 45%;
+  height: auto;
+}
+
+.lineup {
+    height: calc(12vw);
+}
+
+.squeeze {
+    max-width: 100%;
+    height: auto;
+}
